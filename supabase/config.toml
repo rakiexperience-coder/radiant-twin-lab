@@ -1,0 +1,4 @@
+project_id = "uecfuclhbjrqsdytusmv"
+
+[functions.generate-twins]
+verify_jwt = false
