@@ -74,7 +74,7 @@ const Index = () => {
   const canGenerate = selectedPhoto && selectedAesthetic;
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen" style={{ background: 'var(--orchid-gradient)' }}>
       <Header />
       
       <main className="container mx-auto px-4 md:px-6 pt-32 pb-8">

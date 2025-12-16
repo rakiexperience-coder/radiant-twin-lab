@@ -7,7 +7,7 @@
 
 @layer base {
   :root {
-    --background: 40 20% 97%;
+    --background: 300 8% 97%;
     --foreground: 30 10% 15%;
 
     --card: 40 25% 98%;
@@ -42,6 +42,9 @@
     --gold-dark: 43 80% 35%;
     --cream: 40 30% 96%;
     --warm-neutral: 35 15% 92%;
+    
+    --orchid-subtle: 300 15% 95%;
+    --orchid-gradient: linear-gradient(180deg, hsl(300 8% 97%) 0%, hsl(295 12% 94%) 50%, hsl(40 20% 96%) 100%);
 
     --font-serif: 'Cormorant Garamond', Georgia, serif;
     --font-sans: 'Poppins', system-ui, sans-serif;
@@ -52,7 +55,7 @@
   }
 
   .dark {
-    --background: 30 15% 8%;
+    --background: 290 10% 8%;
     --foreground: 40 20% 95%;
 
     --card: 30 12% 12%;
@@ -85,6 +88,9 @@
     --gold-dark: 43 80% 45%;
     --cream: 30 12% 12%;
     --warm-neutral: 30 10% 18%;
+    
+    --orchid-subtle: 290 12% 12%;
+    --orchid-gradient: linear-gradient(180deg, hsl(290 10% 8%) 0%, hsl(285 12% 10%) 50%, hsl(30 12% 10%) 100%);
   }
 }
 
