@@ -44,7 +44,7 @@ const GenerateButton = ({ onClick, disabled, isLoading }: GenerateButtonProps) =
         href="https://lovable.dev"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-6 py-3 text-sm font-medium rounded-lg transition-all duration-300 border border-gold/40 text-gold hover:border-gold hover:bg-gold/5"
+        className="px-8 py-6 text-lg font-medium rounded-xl transition-all duration-300 bg-gold hover:bg-gold-dark text-primary-foreground shadow-soft hover:shadow-glow"
       >
         Build Your AI Twin Studio with Lovable
       </a>
