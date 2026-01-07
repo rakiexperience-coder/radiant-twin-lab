@@ -40,6 +40,15 @@ const GenerateButton = ({ onClick, disabled, isLoading }: GenerateButtonProps) =
         )}
       </Button>
       
+      <a
+        href="https://lovable.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-6 py-3 text-sm font-medium rounded-lg transition-all duration-300 border border-gold/40 text-gold hover:border-gold hover:bg-gold/5"
+      >
+        Build Your AI Twin Studio with Lovable
+      </a>
+      
       {disabled && !isLoading && (
         <p className="text-sm text-muted-foreground text-center">
           Please upload a photo and select an aesthetic to continue
